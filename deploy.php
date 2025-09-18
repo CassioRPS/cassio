@@ -1,5 +1,5 @@
 <?php
-$secret = 'SEU_SEGREDO_AQUI';
+$secret = 'R0berth#';
 $payload = file_get_contents('php://input');
 $signature = 'sha1=' . hash_hmac('sha1', $payload, $secret);
 
