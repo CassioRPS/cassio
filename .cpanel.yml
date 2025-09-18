@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYMENT_DIR=/home4/cass3268/git.softflare.com.br
+    - /usr/bin/rsync -a --delete ./ $DEPLOYMENT_DIR
